@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="issues" FOLDED="false" ID="ID_358916900" CREATED="1570577334453" MODIFIED="1570577336506" STYLE="oval">
+<node TEXT="2019" OBJECT="java.lang.Long|2019" FOLDED="false" ID="ID_1097525733" CREATED="1570577469423" MODIFIED="1570577607374" LINK="../index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,7 +64,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2019" OBJECT="java.lang.Long|2019" POSITION="right" ID="ID_1591037151" CREATED="1570577612951" MODIFIED="1570577620069" LINK="2019/index.mm">
+<node TEXT="10" OBJECT="java.lang.Long|10" POSITION="right" ID="ID_549450535" CREATED="1570577486031" MODIFIED="1570577544488" LINK="10/index.mm">
 <edge COLOR="#ff0000"/>
 </node>
 </node>
