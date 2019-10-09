@@ -1,7 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="09/10/2019" FOLDED="false" ID="ID_1087036541" CREATED="1570617335935" MODIFIED="1570617338454" LINK="../index.mm" STYLE="oval">
-<icon BUILTIN="calendar"/>
+<node TEXT="icons" FOLDED="false" ID="ID_1222402077" CREATED="1570622548100" MODIFIED="1570622581404" LINK="index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,36 +63,59 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="todo" POSITION="right" ID="ID_1619268815" CREATED="1570617338458" MODIFIED="1570617338461">
-<icon BUILTIN="idea"/>
-<edge COLOR="#ff0000"/>
-</node>
-<node TEXT="next" POSITION="right" ID="ID_1860705291" CREATED="1570617338462" MODIFIED="1570617338464">
-<icon BUILTIN="go"/>
-<edge COLOR="#0000ff"/>
-</node>
-<node TEXT="doing" POSITION="right" ID="ID_287960880" CREATED="1570617338466" MODIFIED="1570617338471">
-<icon BUILTIN="bookmark"/>
-<edge COLOR="#00ff00"/>
-</node>
-<node TEXT="done" POSITION="left" ID="ID_311812770" CREATED="1570617338473" MODIFIED="1570617338475">
-<icon BUILTIN="button_ok"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="fork a repo twice" ID="ID_1022467528" CREATED="1570617482981" MODIFIED="1570618168947" LINK="forking%20twice.mm"/>
-<node TEXT="icons" ID="ID_48608502" CREATED="1570622981406" MODIFIED="1570622993010" LINK="icons.mm"/>
-</node>
-<node TEXT="later" POSITION="left" ID="ID_1967568057" CREATED="1570617338478" MODIFIED="1570617338485">
-<icon BUILTIN="prepare"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="display" POSITION="right" ID="ID_1724864377" CREATED="1570622905900" MODIFIED="1570622910640">
 <edge COLOR="#00ffff"/>
+<node TEXT="png_13874294271789911109.png" ID="ID_1758840730" CREATED="1570622916956" MODIFIED="1570622916956">
+<hook URI="icons_files/png_13874294271789911109.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
-<node TEXT="waiting" POSITION="left" ID="ID_1412269978" CREATED="1570617338487" MODIFIED="1570617338489">
-<icon BUILTIN="hourglass"/>
-<edge COLOR="#7c0000"/>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_1084236118" CREATED="1570617338490" MODIFIED="1570617338493">
+<node TEXT="summary" POSITION="right" ID="ID_1898776532" CREATED="1570622590935" MODIFIED="1570622594103">
+<edge COLOR="#ff00ff"/>
+<node TEXT="find 16x16 icons to add to freeplane icons directory" ID="ID_1863864009" CREATED="1570622595862" MODIFIED="1570622612562"/>
+</node>
+<node TEXT="links" POSITION="right" ID="ID_772412934" CREATED="1570622555763" MODIFIED="1570622555770">
 <icon BUILTIN="attach"/>
-<edge COLOR="#00007c"/>
+<edge COLOR="#00ff00"/>
+<node ID="ID_208381457" CREATED="1570622747869" MODIFIED="1570622756496" LINK="http://www.small-icons.com/packs/16x16-free-application-icons.htm">
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="http://www.small-icons.com/packs/16x16-free-application-icons.htm">http://www.small-icons.com/packs/16x16-free-application-icons.htm</a> 
+  </body>
+</html>
+</richcontent>
+<node TEXT="http://www.small-icons.com/downloads/16x16-free-application-icons.zip" ID="ID_526848752" CREATED="1570622781740" MODIFIED="1570622781740" LINK="http://www.small-icons.com/downloads/16x16-free-application-icons.zip"/>
+</node>
+<node ID="ID_308430816" CREATED="1570622573673" MODIFIED="1570622573673" LINK="https://www.iconfinder.com/iconsets/6x16-free-application-icons"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.iconfinder.com/iconsets/6x16-free-application-icons">https://www.iconfinder.com/iconsets/6x16-free-application-icons</a> 
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1636401104" CREATED="1570622652682" MODIFIED="1570622652682" LINK="https://www.iconfinder.com/iconsets/aspneticons"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.iconfinder.com/iconsets/aspneticons">https://www.iconfinder.com/iconsets/aspneticons</a> 
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
