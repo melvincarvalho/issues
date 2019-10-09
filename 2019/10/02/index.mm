@@ -1,6 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="10/2019" FOLDED="false" ID="ID_1045962632" CREATED="1570577504372" MODIFIED="1570577535380" LINK="../index.mm" STYLE="oval">
+<node TEXT="2/10/19" OBJECT="org.freeplane.features.format.FormattedDate|2019-02-10T00:00+0100|date" FOLDED="false" ID="ID_1198943023" CREATED="1570623766801" MODIFIED="1570623776644" LINK="../index.mm" STYLE="oval">
+<icon BUILTIN="calendar"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,15 +64,35 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="1" OBJECT="java.lang.Long|1" POSITION="right" ID="ID_991234030" CREATED="1570577550113" MODIFIED="1570623742236" LINK="01/index.mm">
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="todo" POSITION="right" ID="ID_1051441144" CREATED="1570623768307" MODIFIED="1570623768309">
+<icon BUILTIN="idea"/>
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="2" OBJECT="java.lang.Long|2" POSITION="right" ID="ID_291915573" CREATED="1570577552948" MODIFIED="1570623800643" LINK="02/index.mm">
+<node TEXT="next" POSITION="right" ID="ID_1859561192" CREATED="1570623768309" MODIFIED="1570623768311">
+<icon BUILTIN="go"/>
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="9" OBJECT="java.lang.Long|9" POSITION="right" ID="ID_696780799" CREATED="1570577553982" MODIFIED="1570623854635" LINK="09/index.mm">
+<node TEXT="doing" POSITION="right" ID="ID_800814641" CREATED="1570623768312" MODIFIED="1570623768314">
+<icon BUILTIN="bookmark"/>
 <edge COLOR="#00ff00"/>
+</node>
+<node TEXT="done" POSITION="left" ID="ID_1286387036" CREATED="1570623768314" MODIFIED="1570623768316">
+<icon BUILTIN="button_ok"/>
+<edge COLOR="#ff00ff"/>
+<node TEXT="deploy" ID="ID_995318409" CREATED="1570623815635" MODIFIED="1570623830450" LINK="github%20deploy.mm"/>
+</node>
+<node TEXT="later" POSITION="left" ID="ID_1040739262" CREATED="1570623768317" MODIFIED="1570623768319">
+<icon BUILTIN="prepare"/>
+<edge COLOR="#00ffff"/>
+</node>
+<node TEXT="waiting" POSITION="left" ID="ID_1384649898" CREATED="1570623768319" MODIFIED="1570623768322">
+<icon BUILTIN="hourglass"/>
+<edge COLOR="#7c0000"/>
+</node>
+<node TEXT="links" POSITION="left" ID="ID_96254481" CREATED="1570623768322" MODIFIED="1570623768325">
+<icon BUILTIN="attach"/>
+<edge COLOR="#00007c"/>
 </node>
 </node>
 </map>
