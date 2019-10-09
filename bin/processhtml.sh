@@ -16,11 +16,14 @@ do
 
     for ID in $(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
     do
-      # HREF=$(grep "\"$ID" "$FILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
-      2>&1 echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size:83%;"><a href="'
+      HREF=$(grep "\"$ID" "$FILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
+       echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size'  >/dev/null 2>&1
 
       if [[ $? -eq 1 ]]
       then
+        echo file: $FILE
+        echo $ID
+        echo $HREF
         sed "s,#$ID,$HREF," "$FILE" > /tmp/$$
         mv /tmp/$$ "$FILE"
       fi
