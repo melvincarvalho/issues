@@ -1,0 +1,33 @@
+<#ID_218445687> <urn:string:@_TEXT> """todo""" .
+<#ID_1597514152> <urn:string:@_TEXT> """find out which version it is running""" .
+<#ID_1597514152> <urn:string:child> <ID_1597514152> .
+<#ID_1245027612> <urn:string:@_TEXT> """grep version ~/solid.live/package.json""" .
+<#ID_1245027612> <urn:string:child> <ID_1245027612> .
+<#ID_258954144> <urn:string:@_TEXT> """&quot;version&quot;: &quot;5.1.7&quot;,""" .
+<#ID_258954144> <urn:string:child> <ID_258954144> .
+<#ID_498159152> <urn:string:@_TEXT> """next""" .
+<#ID_1019039207> <urn:string:@_TEXT> """upgrade to 5.2""" .
+<#ID_1019039207> <urn:string:child> <ID_1019039207> .
+<#ID_667633327> <urn:string:@_TEXT> """stop pm2""" .
+<#ID_667633327> <urn:string:child> <ID_667633327> .
+<#ID_333737714> <urn:string:@_TEXT> """git pull origin gh-pages""" .
+<#ID_333737714> <urn:string:child> <ID_333737714> .
+<#ID_1482135301> <urn:string:@_TEXT> """rm node_modules""" .
+<#ID_1482135301> <urn:string:child> <ID_1482135301> .
+<#ID_1626232981> <urn:string:@_TEXT> """npm install""" .
+<#ID_1626232981> <urn:string:child> <ID_1626232981> .
+<#ID_37332904> <urn:string:@_TEXT> """restart pm2""" .
+<#ID_37332904> <urn:string:child> <ID_37332904> .
+<#ID_469898696> <urn:string:@_TEXT> """backup""" .
+<#ID_469898696> <urn:string:child> <ID_469898696> .
+<#ID_1371783227> <urn:string:@_TEXT> """find out original content""" .
+<#ID_1371783227> <urn:string:child> <ID_1371783227> .
+<#ID_999561499> <urn:string:@_TEXT> """find size of current""" .
+<#ID_999561499> <urn:string:child> <ID_999561499> .
+<#ID_1710561339> <urn:string:@_TEXT> """back up current""" .
+<#ID_1710561339> <urn:string:child> <ID_1710561339> .
+<#ID_730662297> <urn:string:@_TEXT> """restore orignal""" .
+<#ID_730662297> <urn:string:child> <ID_730662297> .
+<#ID_1337705947> <urn:string:@_TEXT> """doing""" .
+<#ID_173873269> <urn:string:@_TEXT> """done""" .
+<#ID_1081416841> <urn:string:@_TEXT> """links""" .

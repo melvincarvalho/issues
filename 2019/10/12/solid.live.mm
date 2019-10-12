@@ -127,9 +127,24 @@
 <node TEXT="doing" POSITION="right" ID="ID_1337705947" CREATED="1570904914374" MODIFIED="1570904914436">
 <icon BUILTIN="bookmark"/>
 <edge COLOR="#00ff00"/>
-<node TEXT="Video" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1624812075" CREATED="1570912442074" MODIFIED="1570916664244" ICON_SIZE="24.0 pt" LINK="solid.live.html_files/out.mp4">
+<node TEXT="Video" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" FOLDED="true" ID="ID_1624812075" CREATED="1570912442074" MODIFIED="1570916664244" ICON_SIZE="24.0 pt" LINK="solid.live.html_files/out.mp4">
 <icon BUILTIN="video"/>
 <font SIZE="20"/>
+<node TEXT="Music &quot;Springs&quot; by Alex Stoner" ID="ID_1836192668" CREATED="1570921173156" MODIFIED="1570921186500"/>
+<node TEXT="https://taketones.com/track/springs" ID="ID_1645060548" CREATED="1570921194984" MODIFIED="1570921194984" LINK="https://taketones.com/track/springs"/>
+<node ID="ID_1684783021" CREATED="1570921206105" MODIFIED="1570921206105" LINK="https://creativecommons.org/licenses/by-nc/4.0/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="done" POSITION="left" ID="ID_173873269" CREATED="1570904914448" MODIFIED="1570904914505">
