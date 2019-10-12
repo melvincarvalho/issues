@@ -127,7 +127,10 @@
 <node TEXT="doing" POSITION="right" ID="ID_1337705947" CREATED="1570904914374" MODIFIED="1570904914436">
 <icon BUILTIN="bookmark"/>
 <edge COLOR="#00ff00"/>
-<node TEXT="out.mp4" ID="ID_1624812075" CREATED="1570912442074" MODIFIED="1570912442265" LINK="solid.live_files/out.mp4"/>
+<node TEXT="Video" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1624812075" CREATED="1570912442074" MODIFIED="1570916664244" ICON_SIZE="24.0 pt" LINK="solid.live.html_files/out.mp4">
+<icon BUILTIN="video"/>
+<font SIZE="20"/>
+</node>
 </node>
 <node TEXT="done" POSITION="left" ID="ID_173873269" CREATED="1570904914448" MODIFIED="1570904914505">
 <icon BUILTIN="button_ok"/>
