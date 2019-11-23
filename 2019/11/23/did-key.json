@@ -268,10 +268,16 @@
                                     "@_MODIFIED": 1574530919043
                                 },
                                 {
-                                    "@_TEXT": "eg expiry, does the key expire or document exire",
+                                    "@_TEXT": "eg expiry, does the key expire or document expire",
                                     "@_ID": "ID_67185380",
                                     "@_CREATED": 1574530920338,
-                                    "@_MODIFIED": 1574530940521
+                                    "@_MODIFIED": 1574531384300
+                                },
+                                {
+                                    "@_TEXT": "HR14 not well understood",
+                                    "@_ID": "ID_104578246",
+                                    "@_CREATED": 1574531459973,
+                                    "@_MODIFIED": 1574531465777
                                 }
                             ]
                         },
@@ -927,6 +933,36 @@
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "@_TEXT": "doesnt in general interoperate with the rest of linked data",
+                            "@_ID": "ID_1265470385",
+                            "@_CREATED": 1574531391373,
+                            "@_MODIFIED": 1574531401944,
+                            "node": {
+                                "@_TEXT": "e.g. solid / turtle",
+                                "@_ID": "ID_1287399535",
+                                "@_CREATED": 1574531470434,
+                                "@_MODIFIED": 1574531474093
+                            }
+                        },
+                        {
+                            "@_TEXT": "hard requirement on JSON-LD",
+                            "@_ID": "ID_1581303313",
+                            "@_CREATED": 1574531403125,
+                            "@_MODIFIED": 1574531411825
+                        },
+                        {
+                            "@_TEXT": "data quality questionable in the eco system",
+                            "@_ID": "ID_1074958339",
+                            "@_CREATED": 1574531412944,
+                            "@_MODIFIED": 1574531452140
+                        },
+                        {
+                            "@_TEXT": "hard requirement on DID spec, which is political and has artifical constraints",
+                            "@_ID": "ID_616470162",
+                            "@_CREATED": 1574531478522,
+                            "@_MODIFIED": 1574531495538
                         }
                     ]
                 },

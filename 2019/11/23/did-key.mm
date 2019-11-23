@@ -82,7 +82,8 @@
 <edge COLOR="#ff0000"/>
 <node TEXT="document / identifier problem" ID="ID_1425020605" CREATED="1574530866726" MODIFIED="1574530873479">
 <node TEXT="items regarding the document and key can be conflated" ID="ID_890623481" CREATED="1574530903953" MODIFIED="1574530919043"/>
-<node TEXT="eg expiry, does the key expire or document exire" ID="ID_67185380" CREATED="1574530920338" MODIFIED="1574530940521"/>
+<node TEXT="eg expiry, does the key expire or document expire" ID="ID_67185380" CREATED="1574530920338" MODIFIED="1574531384300"/>
+<node TEXT="HR14 not well understood" ID="ID_104578246" CREATED="1574531459973" MODIFIED="1574531465777"/>
 </node>
 <node TEXT="centralization" ID="ID_377528786" CREATED="1574530942150" MODIFIED="1574530944679">
 <node TEXT="relies on w3id.org" ID="ID_454102209" CREATED="1574530945679" MODIFIED="1574530951627">
@@ -126,6 +127,12 @@
 <node TEXT="again forbidden" ID="ID_844246524" CREATED="1574531127951" MODIFIED="1574531132567"/>
 </node>
 </node>
+<node TEXT="doesnt in general interoperate with the rest of linked data" ID="ID_1265470385" CREATED="1574531391373" MODIFIED="1574531401944">
+<node TEXT="e.g. solid / turtle" ID="ID_1287399535" CREATED="1574531470434" MODIFIED="1574531474093"/>
+</node>
+<node TEXT="hard requirement on JSON-LD" ID="ID_1581303313" CREATED="1574531403125" MODIFIED="1574531411825"/>
+<node TEXT="data quality questionable in the eco system" ID="ID_1074958339" CREATED="1574531412944" MODIFIED="1574531452140"/>
+<node TEXT="hard requirement on DID spec, which is political and has artifical constraints" ID="ID_616470162" CREATED="1574531478522" MODIFIED="1574531495538"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>

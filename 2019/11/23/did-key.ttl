@@ -5,8 +5,10 @@
 <#ID_1425020605> <urn:string:child> <ID_1425020605> .
 <#ID_890623481> <urn:string:@_TEXT> """items regarding the document and key can be conflated""" .
 <#ID_890623481> <urn:string:child> <ID_890623481> .
-<#ID_67185380> <urn:string:@_TEXT> """eg expiry, does the key expire or document exire""" .
+<#ID_67185380> <urn:string:@_TEXT> """eg expiry, does the key expire or document expire""" .
 <#ID_67185380> <urn:string:child> <ID_67185380> .
+<#ID_104578246> <urn:string:@_TEXT> """HR14 not well understood""" .
+<#ID_104578246> <urn:string:child> <ID_104578246> .
 <#ID_377528786> <urn:string:@_TEXT> """centralization""" .
 <#ID_377528786> <urn:string:child> <ID_377528786> .
 <#ID_1039236328> <urn:string:@_TEXT> """claims""" .
@@ -35,6 +37,14 @@
 <#ID_1826929562> <urn:string:child> <ID_1826929562> .
 <#ID_1084449423> <urn:string:@_TEXT> """could be fixed by inlining prefixes""" .
 <#ID_1084449423> <urn:string:child> <ID_1084449423> .
+<#ID_1265470385> <urn:string:@_TEXT> """doesnt in general interoperate with the rest of linked data""" .
+<#ID_1265470385> <urn:string:child> <ID_1265470385> .
+<#ID_1581303313> <urn:string:@_TEXT> """hard requirement on JSON-LD""" .
+<#ID_1581303313> <urn:string:child> <ID_1581303313> .
+<#ID_1074958339> <urn:string:@_TEXT> """data quality questionable in the eco system""" .
+<#ID_1074958339> <urn:string:child> <ID_1074958339> .
+<#ID_616470162> <urn:string:@_TEXT> """hard requirement on DID spec, which is political and has artifical constraints""" .
+<#ID_616470162> <urn:string:child> <ID_616470162> .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
 <#ID_1100215200> <urn:string:@_TEXT> """docs""" .
 <#ID_466759422> <urn:string:@_TEXT> """tags""" .
