@@ -248,6 +248,7 @@
                     "@_ID": "ID_1414960960",
                     "@_CREATED": 1570968728177,
                     "@_MODIFIED": 1574530860823,
+                    "@_NUMBERED": false,
                     "icon": {
                         "@_BUILTIN": "yes"
                     },
@@ -260,6 +261,7 @@
                             "@_ID": "ID_1425020605",
                             "@_CREATED": 1574530866726,
                             "@_MODIFIED": 1574530873479,
+                            "@_NUMBERED": true,
                             "node": [
                                 {
                                     "@_TEXT": "items regarding the document and key can be conflated",
@@ -286,6 +288,7 @@
                             "@_ID": "ID_377528786",
                             "@_CREATED": 1574530942150,
                             "@_MODIFIED": 1574530944679,
+                            "@_NUMBERED": true,
                             "node": {
                                 "@_TEXT": "relies on w3id.org",
                                 "@_ID": "ID_454102209",
@@ -304,6 +307,7 @@
                             "@_ID": "ID_1039236328",
                             "@_CREATED": 1574530989571,
                             "@_MODIFIED": 1574531029382,
+                            "@_NUMBERED": true,
                             "node": [
                                 {
                                     "@_TEXT": "simplest possible implementation of a DID Method",
@@ -867,6 +871,7 @@
                             "@_ID": "ID_573143043",
                             "@_CREATED": 1574531046917,
                             "@_MODIFIED": 1574531052550,
+                            "@_NUMBERED": true,
                             "node": [
                                 {
                                     "@_TEXT": "which dont have an easy upgrade path",
@@ -887,6 +892,7 @@
                             "@_ID": "ID_1847577386",
                             "@_CREATED": 1574531070291,
                             "@_MODIFIED": 1574531075678,
+                            "@_NUMBERED": true,
                             "node": [
                                 {
                                     "@_TEXT": "no support for turtle",
@@ -913,6 +919,7 @@
                             "@_ID": "ID_1299284769",
                             "@_CREATED": 1574531103932,
                             "@_MODIFIED": 1574531107785,
+                            "@_NUMBERED": true,
                             "node": [
                                 {
                                     "@_TEXT": "requires an async fetch to get the prefixes",
@@ -939,6 +946,7 @@
                             "@_ID": "ID_1265470385",
                             "@_CREATED": 1574531391373,
                             "@_MODIFIED": 1574531401944,
+                            "@_NUMBERED": true,
                             "node": {
                                 "@_TEXT": "e.g. solid / turtle",
                                 "@_ID": "ID_1287399535",
@@ -950,19 +958,22 @@
                             "@_TEXT": "hard requirement on JSON-LD",
                             "@_ID": "ID_1581303313",
                             "@_CREATED": 1574531403125,
-                            "@_MODIFIED": 1574531411825
+                            "@_MODIFIED": 1574531411825,
+                            "@_NUMBERED": true
                         },
                         {
                             "@_TEXT": "data quality questionable in the eco system",
                             "@_ID": "ID_1074958339",
                             "@_CREATED": 1574531412944,
-                            "@_MODIFIED": 1574531452140
+                            "@_MODIFIED": 1574531452140,
+                            "@_NUMBERED": true
                         },
                         {
                             "@_TEXT": "hard requirement on DID spec, which is political and has artifical constraints",
                             "@_ID": "ID_616470162",
                             "@_CREATED": 1574531478522,
-                            "@_MODIFIED": 1574531495538
+                            "@_MODIFIED": 1574531495538,
+                            "@_NUMBERED": true
                         }
                     ]
                 },
