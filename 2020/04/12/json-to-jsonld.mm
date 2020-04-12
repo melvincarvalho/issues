@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Summary" POSITION="right" ID="ID_1226961462" CREATED="1570979963389" MODIFIED="1570980209554" COLOR="#3333ff">
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
@@ -101,7 +101,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -125,16 +124,22 @@
   }</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="this" POSITION="right" ID="ID_1092542481" CREATED="1586696402542" MODIFIED="1586696409247">
+<edge COLOR="#007c7c"/>
+<node TEXT="html" ID="ID_428900558" CREATED="1586696437885" MODIFIED="1586696557376" LINK="https://melvincarvalho.com/issues/2020/04/12/json-to-jsonld.html"/>
+<node TEXT="JSON-LD" ID="ID_1787735517" CREATED="1586696450485" MODIFIED="1586696566531" LINK="https://melvincarvalho.com/issues/2020/04/12/json-to-jsonld.jsonld"/>
+<node TEXT="JSON" ID="ID_1736431665" CREATED="1586696447230" MODIFIED="1586696575655" LINK="https://melvincarvalho.com/issues/2020/04/12/json-to-jsonld.json"/>
 </node>
 <node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
 <icon BUILTIN="attach"/>
 <edge COLOR="#00007c"/>
 <node TEXT="w3c mailing list" ID="ID_918122248" CREATED="1586684666040" MODIFIED="1586685066159">
 <node TEXT="JSON Ontology Re: Toward easier RDF: a proposal" ID="ID_1976596821" CREATED="1586684804905" MODIFIED="1586684825498" LINK="https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0171.html"/>
+<node TEXT="A library that converts regular JSON to JSON-LD" ID="ID_1449545746" CREATED="1586696374021" MODIFIED="1586696393778" LINK="https://lists.w3.org/Archives/Public/public-linked-json/2020Apr/0003.html"/>
 </node>
 <node TEXT="github" ID="ID_1747052948" CREATED="1586684677436" MODIFIED="1586684679042">
 <node TEXT="No standard way to map a JSON predicate to a URI" ID="ID_1011609031" CREATED="1586684680791" MODIFIED="1586684753730" LINK="https://github.com/w3c/EasierRDF/issues/29"/>
@@ -152,7 +157,6 @@
     </h1>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="JSON to JSON-LD" ID="ID_1701504836" CREATED="1586685251957" MODIFIED="1586685276918" LINK="https://stackoverflow.com/questions/27564369/json-to-json-ld"/>
@@ -187,7 +191,6 @@
     mappings from field name to iri needs to be grounde
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

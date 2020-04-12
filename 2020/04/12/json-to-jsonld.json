@@ -191,7 +191,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 9,
+                    "@_COUNTER": 10,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -517,6 +517,39 @@
                     ]
                 },
                 {
+                    "@_TEXT": "this",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1092542481",
+                    "@_CREATED": 1586696402542,
+                    "@_MODIFIED": 1586696409247,
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "html",
+                            "@_ID": "ID_428900558",
+                            "@_CREATED": 1586696437885,
+                            "@_MODIFIED": 1586696557376,
+                            "@_LINK": "https://melvincarvalho.com/issues/2020/04/12/json-to-jsonld.html"
+                        },
+                        {
+                            "@_TEXT": "JSON-LD",
+                            "@_ID": "ID_1787735517",
+                            "@_CREATED": 1586696450485,
+                            "@_MODIFIED": 1586696566531,
+                            "@_LINK": "https://melvincarvalho.com/issues/2020/04/12/json-to-jsonld.jsonld"
+                        },
+                        {
+                            "@_TEXT": "JSON",
+                            "@_ID": "ID_1736431665",
+                            "@_CREATED": 1586696447230,
+                            "@_MODIFIED": 1586696575655,
+                            "@_LINK": "https://melvincarvalho.com/issues/2020/04/12/json-to-jsonld.json"
+                        }
+                    ]
+                },
+                {
                     "@_TEXT": "links",
                     "@_POSITION": "left",
                     "@_ID": "ID_808607355",
@@ -534,13 +567,22 @@
                             "@_ID": "ID_918122248",
                             "@_CREATED": 1586684666040,
                             "@_MODIFIED": 1586685066159,
-                            "node": {
-                                "@_TEXT": "JSON Ontology Re: Toward easier RDF: a proposal",
-                                "@_ID": "ID_1976596821",
-                                "@_CREATED": 1586684804905,
-                                "@_MODIFIED": 1586684825498,
-                                "@_LINK": "https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0171.html"
-                            }
+                            "node": [
+                                {
+                                    "@_TEXT": "JSON Ontology Re: Toward easier RDF: a proposal",
+                                    "@_ID": "ID_1976596821",
+                                    "@_CREATED": 1586684804905,
+                                    "@_MODIFIED": 1586684825498,
+                                    "@_LINK": "https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0171.html"
+                                },
+                                {
+                                    "@_TEXT": "A library that converts regular JSON to JSON-LD",
+                                    "@_ID": "ID_1449545746",
+                                    "@_CREATED": 1586696374021,
+                                    "@_MODIFIED": 1586696393778,
+                                    "@_LINK": "https://lists.w3.org/Archives/Public/public-linked-json/2020Apr/0003.html"
+                                }
+                            ]
                         },
                         {
                             "@_TEXT": "github",
