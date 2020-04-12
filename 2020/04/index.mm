@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="issues" FOLDED="false" ID="ID_358916900" CREATED="1570577334453" MODIFIED="1570577336506" STYLE="oval">
+<node TEXT="04/2020" FOLDED="false" ID="ID_1045962632" CREATED="1570577504372" MODIFIED="1586684426255" LINK="../index.mm" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,12 +63,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="2019" OBJECT="java.lang.Long|2019" POSITION="right" ID="ID_1591037151" CREATED="1570577612951" MODIFIED="1570577620069" LINK="2019/index.mm">
-<edge COLOR="#ff0000"/>
-</node>
-<node TEXT="2020" OBJECT="java.lang.Long|2020" POSITION="right" ID="ID_648957784" CREATED="1586683984920" MODIFIED="1586684290650" LINK="2020/index.mm">
-<edge COLOR="#0000ff"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="12" OBJECT="java.lang.Long|12" POSITION="right" ID="ID_410752666" CREATED="1570916501677" MODIFIED="1570916509615" LINK="12/index.mm">
+<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>

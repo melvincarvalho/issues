@@ -1,0 +1,365 @@
+<!DOCTYPE html><html lang="en" xmlns:my="local.uri">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>json to jsonld</title>
+        <meta name="description" content="Freeplane mindmap HTML presentation">
+        <meta name="author" content="Yours Respectfully">
+        <meta name="generator" content="Mindslide at http://berteh.github.io/mindslide/">
+        <!--Mindslide version 0.5-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="reveal.js/css/reveal.css">
+        <link rel="stylesheet" id="theme" href="reveal.js/css/theme/moon.css">
+        <!--For syntax highlighting-->
+        <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+        <style type="text/css">
+            a.connector, a.subsection {margin-left: 1ex; font-size: smaller}
+            .illustrations a {float:left; margin: 1ex 5px; max-width:100%}
+            .illustrations img {max-height:8em;}
+            .illustrations.w1 a {max-width:98%} 
+            .illustrations.w2 a {max-width:47%} 
+            .illustrations.w3 a, .illustrations.w6 a  {max-width:31%} 
+            .illustrations.w4 a, .illustrations.w7 a, .illustrations.w8 a {max-width:23%} 
+            .illustrations.w5 a, .illustrations.w9 a, .illustrations.w10 a {max-width:18%} 
+
+            /* bullet lists layout */
+			#mindslide li p {margin: 0 0;}
+            #mindslide section.content>ul li {font-size: 90%;}
+            #mindslide section.content>ul>li:first-of-type, #mindslide section.title>ul li {list-style:none; display:block; font-size: 120%; margin-bottom:1ex}   
+
+            /* zenburn hack for inline code highlight */
+            pre.inline, .inline code {display:inline; width:auto;}
+			
+			/* icons */
+			#mindslide.awesome section.content li.icon {list-style:none; margin-left: -1em}
+			#mindslide.awesome .fa {font-family: FontAwesome; margin-right: 1ex;}			
+        </style>
+        <!--If the query includes 'print-pdf', use the PDF print sheet. works in Chrome, maybe not other browsers-->
+        <script type="text/javascript">
+        document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
+        </script>
+        <!--
+            [if lt IE 9]>
+            <script src="reveal.js/lib/js/html5shiv.js"></script>
+            <![endif]
+        -->
+        <!--placeholder for custom header items (typically scripts or stylesheets)-->
+    </head>
+    <body>
+        <div class="reveal">
+            <!--Any section element inside of this container is displayed as a slide-->
+            <div id="mindslide" class="slides">
+                <section class="title" id="ID_1831615648">
+                    <h1>json to jsonld</h1>
+                    <ul>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-list"></span>Details
+                        </li>
+                    </ul>
+                </section>
+                <section class="toc">
+                    <h2>Table of Content</h2>
+                    <ul>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-magic"></span>Summary<a href="#/ID_1226961462" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li>
+                            Proposals<a href="#/ID_1685152554" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-paperclip"></span>links<a href="#/ID_808607355" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-folder"></span>docs<a href="#/ID_1100215200" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa "></span>tags<a href="#/ID_466759422" class="link subsection"> &#8628;</a>
+                        </li>
+                        <li>
+                            Comments<a href="#/ID_1203332323" class="link subsection"> &#8628;</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="content" id="ID_1226961462">
+                    <h2>Summary</h2>
+                    <ul>
+                        <li>We would like to systematically transform JSON to JSON-LD</li>
+                        <li>To do this we must transform keys to URIs</li>
+                    </ul>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_1685152554">
+                        <h2>Proposals</h2>
+                        <ul>
+                            <li>
+                                Map a key foo to<a href="#/ID_913816081" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Context file via HTTP header<a href="#/ID_658809045" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Nesting<a href="#/ID_474092614" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Scoped contexts<a href="#/ID_639646569" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_913816081">
+                        <h3>Map a key foo to</h3>
+                        <ul>
+                            <li>urn:string:foo</li>
+                            <li>urn:TEMP:foo</li>
+                            <li>urn:{personal-or-app-namespace}:foo</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_658809045">
+                        <h3>Context file via HTTP header</h3>
+                        <ul>
+                            <li>Content-Type: application/json</li>
+                            <li>Link: &lt;https://json-ld.org/contexts/person.jsonld&gt;; rel="http://www.w3.org/ns/json-ld#context"; type="application/ld+json"</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_474092614">
+                        <h3>Nesting</h3>
+                        <ul>
+                            <li>
+                                <p>
+      the algorithm needs to recursively traverse the JSON tree and keep track of nesting to generate an @context that will keep nested properties of the same name distinct
+    </p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_639646569">
+                        <h3>Scoped contexts</h3>
+                        <ul>
+                            <li>
+                                <pre http-equiv="content-type" content="text/html; charset=utf-8">
+                                    {
+  <span class="pl-pds">"</span><span class="pl-s">@context</span><span class="pl-pds">"</span>: {
+    <span class="pl-pds">"</span><span class="pl-s">@vocab</span><span class="pl-pds">"</span>: <span class="pl-pds">"</span><span class="pl-s">urn:TEST:</span><span class="pl-pds">"</span>,
+    <span class="pl-pds">"</span><span class="pl-s">baz</span><span class="pl-pds">"</span>: {<span class="pl-pds">"</span><span class="pl-s">@context</span><span class="pl-pds">"</span>: {<span class="pl-pds">"</span><span class="pl-s">@vocab</span><span class="pl-pds">"</span>: <span class="pl-pds">"</span><span class="pl-s">baz/</span><span class="pl-pds">"</span>}}
+  },
+  <span class="pl-pds">"</span><span class="pl-s">@id</span><span class="pl-pds">"</span>: <span class="pl-pds">"</span><span class="pl-s">http://example.com/#local-json</span><span class="pl-pds">"</span>,
+  <span class="pl-pds">"</span><span class="pl-s">foo</span><span class="pl-pds">"</span>: <span class="pl-pds">"</span><span class="pl-s">bar</span><span class="pl-pds">"</span>,
+  <span class="pl-pds">"</span><span class="pl-s">baz</span><span class="pl-pds">"</span>: {
+    <span class="pl-pds">"</span><span class="pl-s">foo</span><span class="pl-pds">"</span>: <span class="pl-pds">"</span><span class="pl-s">...</span><span class="pl-pds">"</span>
+  }
+                                </pre>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_808607355">
+                        <h2>links</h2>
+                        <ul>
+                            <li>
+                                w3c mailing list<a href="#/ID_918122248" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                github<a href="#/ID_1747052948" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                stackovervlow<a href="#/ID_1444305482" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/antoniogarrote/json-ld-macros" class="link external">json ld macros</a>
+                            </li>
+                            <li>
+                                <a href="http://json-ld.org/playground/" class="link external">json ld playground</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_918122248">
+                        <h3>w3c mailing list</h3>
+                        <ul>
+                            <li>
+                                <a href="https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0171.html" class="link external">JSON Ontology Re: Toward easier RDF: a proposal</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1747052948">
+                        <h3>github</h3>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/w3c/EasierRDF/issues/29" class="link external">No standard way to map a JSON predicate to a URI</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1444305482">
+                        <h3>stackovervlow</h3>
+                        <ul>
+                            <li>
+                                <a href="https://stackoverflow.com/questions/28077742/converting-to-json-ld-from-json" class="link external">
+                                    <h1 http-equiv="content-type" content="text/html; charset=utf-8" itemprop="name" class="grid--cell fs-headline1 fl1 ow-break-word mb8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: normal; font-weight: normal; line-height: 1.3; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 2.07692rem !important; vertical-align: baseline; color: rgb(36, 39, 41); letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+                                        <a href="https://stackoverflow.com/questions/28077742/converting-to-json-ld-from-json" class="question-hyperlink" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-variant: inherit; font-weight: normal; line-height: 1.35; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 2.07692rem; vertical-align: baseline; text-decoration: none; color: black"><font face="Arial, Helvetica Neue, Helvetica, sans-serif" size="2.07692rem" color="black">Converting to JSON-LD from JSON [duplicat</font></a>e]
+    
+                                    </h1>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/questions/27564369/json-to-json-ld" class="link external">JSON to JSON-LD</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="content" id="ID_1100215200">
+                    <h2>docs</h2>
+                    <ul>
+                        <li>
+                            <a href="https://json-ld.org/spec/latest/json-ld/" class="link external">JSON-LD 1.1</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="content" id="ID_466759422">
+                    <h2>tags</h2>
+                    <ul>
+                        <li>jsonld</li>
+                    </ul>
+                </section>
+                <!--new subsection-->
+                <section>
+                    <section class="content" id="ID_1203332323">
+                        <h2>Comments</h2>
+                        <ul>
+                            <li>
+                                Adrian Gschwend<a href="#/ID_348210779" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                James Anderson<a href="#/ID_1765687416" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                David Booth<a href="#/ID_1984802718" class="link subsection"> &#8628;</a>
+                            </li>
+                            <li>
+                                Ivan Herman<a href="#/ID_1744736052" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_348210779">
+                        <h3>Adrian Gschwend</h3>
+                        <ul>
+                            <li>provide context</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1765687416">
+                        <h3>James Anderson</h3>
+                        <ul>
+                            <li>
+                                <a href="https://stackoverflow.com/questions/27564369/json-to-json-ld" class="link external">JSON to JSON-LD</a>
+                            </li>
+                            <li>
+    mappings from field name to iri needs to be grounde
+  </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1984802718">
+                        <h3>David Booth</h3>
+                        <ul>
+                            <li>I have not seen one yet, but it's good idea.  In particular, the algorithm needs to recursively traverse the JSON tree and keep track of nesting to generate an @context that will keep nested properties of the same name distinct</li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1744736052">
+                        <h3>Ivan Herman</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.w3.org/TR/json-ld11/#interpreting-json-as-json-ld" class="link external">spec: interpreting JSON as JSON-LD</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/w3c/EasierRDF/issues/29#issuecomment-606147345" class="link external">JSON-LD 1.1 scoped context</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="end">
+                    <h1>The End</h1>
+                    <h3 class="thanks">Thank You!</h3>
+                    <p id="author">Yours Respectfully</p>
+                    <p id="credits">
+                        <small>Powered by <a href="http://berteh.github.io/mindslide/">Mindslide</a> for <a href="http://freeplane.sourceforge.net/">Freeplane</a>, using <a href="http://lab.hakim.se/reveal-js/#/">Reveal.js</a></small>
+                    </p>
+                </section>
+            </div>
+        </div>
+        <footer class="info">
+            json to jsonld | <a href="http://berteh.github.io/mindslide/">Mindslide</a> v 0.5 |  <a href="http://freeplane.sourceforge.net/">Freeplane</a> map vfreeplane 1.8.0
+        </footer>
+        <script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>
+
+	//run reveal.js
+	// Full list of configuration options available here:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		slideNumber: false,
+		history: true,
+		keyboard: true,
+		overview: true,
+		center: true,
+		touch: true,
+		loop: false,
+		rtl: false,
+		shuffle: false,
+		fragments: true,
+		embedded: false,
+		help: true,
+		showNotes: false,
+		autoSlide: 0,
+		autoSlideStoppable: true,
+		autoSlideMethod: Reveal.navigateNext,
+		mouseWheel: true,
+		hideAddressBar: true,
+		previewLinks: false,
+		transition: 'slide',
+		transitionSpeed: 'default',
+		backgroundTransition: 'slide',
+		viewDistance: 3,
+		parallaxBackgroundImage: '',
+		parallaxBackgroundSize: '',
+		parallaxBackgroundHorizontal: null,
+		parallaxBackgroundVertical: null,
+
+		theme: Reveal.getQueryHash().theme || 'moon',
+		transition: Reveal.getQueryHash().transition || 'slide',
+
+		
+        // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src:'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src:'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src:'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src:'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          //{ src:'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+          //{ src:'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+		  //{ src:'reveal.js/plugin/math/math.js', async: true }
+		]
+    	
+    });
+        </script>
+        <link rel="stylesheet" crossorigin="anonymous" href="Font-Awesome/css/font-awesome.min.css">
+        <script>
+		// add "awesome" class to #mindslide (only) if FontAwesome is loaded (for icons layout)
+	
+		function css(element, property) {
+			return window.getComputedStyle(element, null).getPropertyValue(property);
+		}
+		
+		window.onload = function () {
+			var span = document.createElement('span');
+			span.className = 'fa';
+			span.style.display = 'none';
+			document.body.insertBefore(span, document.body.firstChild);
+			if ((css(span, 'font-family')) == 'FontAwesome') {
+				var ms = document.getElementById("mindslide");
+				ms.className += " awesome";
+			}
+			document.body.removeChild(span);
+		};		
+		</script>
+    </body>
+</html>

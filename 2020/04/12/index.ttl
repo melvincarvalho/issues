@@ -1,0 +1,7 @@
+<#ID_823472886> <urn:string:@_TEXT> """todo""" .
+<#ID_365874172> <urn:string:@_TEXT> """next""" .
+<#ID_396542648> <urn:string:@_TEXT> """doing""" .
+<#ID_1507396186> <urn:string:@_TEXT> """done""" .
+<#ID_1253009335> <urn:string:@_TEXT> """later""" .
+<#ID_1313195002> <urn:string:@_TEXT> """waiting""" .
+<#ID_1063736684> <urn:string:@_TEXT> """links""" .

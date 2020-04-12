@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="2019" OBJECT="java.lang.Long|2019" FOLDED="false" ID="ID_1097525733" CREATED="1570577469423" MODIFIED="1570577607374" LINK="../index.mm" STYLE="oval">
 <font SIZE="18"/>

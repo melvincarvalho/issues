@@ -1,0 +1,59 @@
+<#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
+<#ID_1086973807> <urn:string:@_TEXT> """We would like to systematically transform JSON to JSON-LD""" .
+<#ID_1086973807> <urn:string:child> <ID_1086973807> .
+<#ID_1111058289> <urn:string:@_TEXT> """To do this we must transform keys to URIs""" .
+<#ID_1111058289> <urn:string:child> <ID_1111058289> .
+<#ID_120250381> <urn:string:@_TEXT> """Details""" .
+<#ID_1685152554> <urn:string:@_TEXT> """Proposals""" .
+<#ID_913816081> <urn:string:@_TEXT> """Map a key foo to""" .
+<#ID_913816081> <urn:string:child> <ID_913816081> .
+<#ID_227726758> <urn:string:@_TEXT> """urn:string:foo""" .
+<#ID_227726758> <urn:string:child> <ID_227726758> .
+<#ID_51017504> <urn:string:@_TEXT> """urn:TEMP:foo""" .
+<#ID_51017504> <urn:string:child> <ID_51017504> .
+<#ID_1038121197> <urn:string:@_TEXT> """urn:{personal-or-app-namespace}:foo""" .
+<#ID_1038121197> <urn:string:child> <ID_1038121197> .
+<#ID_658809045> <urn:string:@_TEXT> """Context file via HTTP header""" .
+<#ID_658809045> <urn:string:child> <ID_658809045> .
+<#ID_1231816294> <urn:string:@_TEXT> """Content-Type: application/json""" .
+<#ID_1231816294> <urn:string:child> <ID_1231816294> .
+<#ID_1174063405> <urn:string:@_TEXT> """Link: &lt;https://json-ld.org/contexts/person.jsonld&gt;; rel=&quot;http://www.w3.org/ns/json-ld#context&quot;; type=&quot;application/ld+json&quot;""" .
+<#ID_1174063405> <urn:string:child> <ID_1174063405> .
+<#ID_474092614> <urn:string:@_TEXT> """Nesting""" .
+<#ID_474092614> <urn:string:child> <ID_474092614> .
+<#ID_639646569> <urn:string:@_TEXT> """Scoped contexts""" .
+<#ID_639646569> <urn:string:child> <ID_639646569> .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_918122248> <urn:string:@_TEXT> """w3c mailing list""" .
+<#ID_918122248> <urn:string:child> <ID_918122248> .
+<#ID_1747052948> <urn:string:@_TEXT> """github""" .
+<#ID_1747052948> <urn:string:child> <ID_1747052948> .
+<#ID_1444305482> <urn:string:@_TEXT> """stackovervlow""" .
+<#ID_1444305482> <urn:string:child> <ID_1444305482> .
+<#ID_1392203866> <urn:string:@_TEXT> """undefined""" .
+<#ID_1392203866> <urn:string:child> <ID_1392203866> .
+<#ID_1701504836> <urn:string:@_TEXT> """JSON to JSON-LD""" .
+<#ID_1701504836> <urn:string:child> <ID_1701504836> .
+<#ID_470698109> <urn:string:@_TEXT> """json ld macros""" .
+<#ID_470698109> <urn:string:child> <ID_470698109> .
+<#ID_415558595> <urn:string:@_TEXT> """json ld playground""" .
+<#ID_415558595> <urn:string:child> <ID_415558595> .
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_466759422> <urn:string:@_TEXT> """tags""" .
+<#ID_1203332323> <urn:string:@_TEXT> """Comments""" .
+<#ID_348210779> <urn:string:@_TEXT> """Adrian Gschwend""" .
+<#ID_348210779> <urn:string:child> <ID_348210779> .
+<#ID_1765687416> <urn:string:@_TEXT> """James Anderson""" .
+<#ID_1765687416> <urn:string:child> <ID_1765687416> .
+<#ID_766501768> <urn:string:@_TEXT> """JSON to JSON-LD""" .
+<#ID_766501768> <urn:string:child> <ID_766501768> .
+<#ID_1778237430> <urn:string:@_TEXT> """undefined""" .
+<#ID_1778237430> <urn:string:child> <ID_1778237430> .
+<#ID_1984802718> <urn:string:@_TEXT> """David Booth""" .
+<#ID_1984802718> <urn:string:child> <ID_1984802718> .
+<#ID_1744736052> <urn:string:@_TEXT> """Ivan Herman""" .
+<#ID_1744736052> <urn:string:child> <ID_1744736052> .
+<#ID_1977856301> <urn:string:@_TEXT> """spec: interpreting JSON as JSON-LD""" .
+<#ID_1977856301> <urn:string:child> <ID_1977856301> .
+<#ID_1496037961> <urn:string:@_TEXT> """JSON-LD 1.1 scoped context""" .
+<#ID_1496037961> <urn:string:child> <ID_1496037961> .
