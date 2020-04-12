@@ -30,6 +30,8 @@
 <#ID_1787735517> <urn:string:child> <ID_1787735517> .
 <#ID_1736431665> <urn:string:@_TEXT> """JSON""" .
 <#ID_1736431665> <urn:string:child> <ID_1736431665> .
+<#ID_1934992190> <urn:string:@_TEXT> """png""" .
+<#ID_1934992190> <urn:string:child> <ID_1934992190> .
 <#ID_808607355> <urn:string:@_TEXT> """links""" .
 <#ID_918122248> <urn:string:@_TEXT> """w3c mailing list""" .
 <#ID_918122248> <urn:string:child> <ID_918122248> .
